@@ -14,22 +14,22 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
-  it('should create the app', () => {
+  /*it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'netflix_copia_tutorial'`, () => {
+  it(`should have as title 'netflix'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('netflix_copia_tutorial');
+    expect(app.title).toEqual('netflix');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('netflix_copia_tutorial app is running!');
-  });
+    expect(compiled.querySelector('.content span')?.textContent).toContain('netflix app is running!');
+  });*/
 });

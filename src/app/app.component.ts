@@ -6,5 +6,40 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'netflix_copia_tutorial';
+  
+  menuOpened = false;
+
+  listTitles = [{
+    trailer: 'assets/videos/trailer_guardioes_da_galaxia_1080p.mp4',
+    cover: 'assets/images/guardios-da-galaxia.jpg',
+    name: 'Guardiões da Galaxia',
+    relevance: 98,
+    age: 12,
+    parts:2,
+    categories: ['Épico','Filme de fantasia','Viagem no espaço']
+  },{
+    trailer: 'assets/videos/trailer_guardioes_da_galaxia_1080p.mp4',
+    cover: 'assets/images/guardios-da-galaxia.jpg',
+    name: 'Guardiões da Galaxia 2',
+    relevance: 80,
+    age: 0,
+    parts:2,
+    categories: ['Épico','Filme de fantasia','Viagem no espaço']
+  },{
+    trailer: 'assets/videos/trailer_guardioes_da_galaxia_1080p.mp4',
+    cover: 'assets/images/guardios-da-galaxia.jpg',
+    name: 'Guardiões da Galaxia 3',
+    relevance: 60,
+    age: 18,
+    parts:1,
+    categories: ['Épico','Filme de fantasia','Viagem no espaço']
+  },]
+
+  SetMenuState(state : boolean){
+    this.menuOpened = state;
+  }
+
+  closeMenu(){
+    this.menuOpened=false;
+  }
 }

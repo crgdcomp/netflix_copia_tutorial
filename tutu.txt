@@ -1,0 +1,23 @@
+C:\Projetos_Angular\netflix>ng serve --open
+C:\Projetos_Angular\netflix>ng generate component shared/FullBanner
+C:\Projetos_Angular\netflix>ng g c shared/ListTitles
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+@Input envia dados do pai para o filho
+@Output envia dados do filho para o pai
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+para chamar comando for usa-se *ngFor
+para chamar comando if usa-se *ngIf
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ 
+para chamar classes usa-se colchetes [ngClass]
+para chamar eventos usa-se parenteses (click)
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ng test
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+app.component.spec.ts
